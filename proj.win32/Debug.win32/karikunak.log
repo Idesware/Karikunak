@@ -1,0 +1,53 @@
+﻿Build started 09/07/2015 17:18:48.
+     1>Project "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\karikunak.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x-3.6\external" /I"C:\Cocos\frameworks\cocos2d-x-3.6\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x-3.6\extensions" /I..\Classes /I.. /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\Cocos\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\freetype2\include\win32\\" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\Intro.cpp ..\Classes\menu.cpp ..\Classes\nivel1.cpp main.cpp
+         AppDelegate.cpp
+         Intro.cpp
+         menu.cpp
+         nivel1.cpp
+         main.cpp
+       PreLinkEvent:
+         if not exist "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\" mkdir "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.6\prebuilt\win32\*.*" "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\"
+         xcopy "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\..\Resources" "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\" /D /E /I /F /Y
+         
+         :VCEnd
+         53 archivo(s) copiado(s)
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\init.csb -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\init.csb
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\intro.csb -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\intro.csb
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\Katarisoft.csb -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\Katarisoft.csb
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\katarisoftintro.csb -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\katarisoftintro.csb
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\menu.csb -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\menu.csb
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\zoidenode.csb -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\zoidenode.csb
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\1mensaje.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\1mensaje.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide1.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide1.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide10.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide10.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide11.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide11.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide12.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide12.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide13.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide13.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide14.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide14.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide2.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide2.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide3.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide3.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide4.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide4.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide5.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide5.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide6.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide6.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide7.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide7.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide8.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide8.png
+         C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\Resources\res\imagenes\zoide9.png -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\res\imagenes\zoide9.png
+         21 archivo(s) copiado(s)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\karikunak.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\ /LIBPATH:C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\karikunak.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\karikunak.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Intro.obj
+         Debug.win32\menu.obj
+         Debug.win32\nivel1.obj
+         Debug.win32\main.obj
+     1>AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\karikunak.lib and object C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\karikunak.exp
+         karikunak.vcxproj -> C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\Debug.win32\karikunak.exe
+     1>Done Building Project "C:\Users\Diego\Documents\Cocos\CocosProjects\karikunak\proj.win32\karikunak.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:19.66

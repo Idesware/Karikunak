@@ -1,0 +1,48 @@
+<Solution>
+  <PropertyGroup Name="karikunak" Version="2.3.0.1" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="intro.csd" Type="Scene" />
+        <Project Name="Katarisoft.csd" Type="Node" />
+        <Project Name="katarisoftintro.csd" Type="Layer" />
+        <Project Name="menu.csd" Type="Scene" />
+        <Project Name="init.csd" Type="Layer" />
+        <Folder Name="sonido">
+          <Audio Name="culebra.mp3" />
+          <Audio Name="menu.mp3" />
+        </Folder>
+        <Folder Name="imagenes">
+          <Image Name="boton_comienzo.png" />
+          <Image Name="boton_comienzo2.png" />
+          <Image Name="cabeza1.png" />
+          <Image Name="fondo.jpg" />
+          <Image Name="icono.png" />
+          <Image Name="lengua.png" />
+          <Image Name="sendas.jpg" />
+          <Image Name="letras.jpg" />
+          <Image Name="zoide1.png" />
+          <Image Name="zoide2.png" />
+          <Image Name="zoide3.png" />
+          <Image Name="zoide4.png" />
+          <Image Name="zoide10.png" />
+          <Image Name="zoide11.png" />
+          <Image Name="zoide12.png" />
+          <Image Name="zoide13.png" />
+          <Image Name="zoide14.png" />
+          <Image Name="zoide5.png" />
+          <Image Name="zoide6.png" />
+          <Image Name="zoide7.png" />
+          <Image Name="zoide8.png" />
+          <Image Name="zoide9.png" />
+          <Image Name="1mensaje.png" />
+          <Image Name="fondo1.jpg" />
+          <Image Name="2mensaje.png" />
+        </Folder>
+        <Project Name="zoidenode.csd" Type="Node" />
+        <Project Name="Nivel1.csd" Type="Layer" />
+        <Project Name="Nive_1.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
